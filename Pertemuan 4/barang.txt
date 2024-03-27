@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 lala
 l
 a
 a
+=======
+lala
+l
+a
+a
+>>>>>>> 1fb676ee28d4b3836acf32d6231a67ab83f4177d
