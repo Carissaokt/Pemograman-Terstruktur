@@ -41,5 +41,4 @@ int main(){
     it++;
     int arr[] = {11,12,13};
     angka.insert(it,begin(arr),end(arr));
->>>>>>> 3971ffa8d388b8ff605feb80b3abb44007349c4a
 }
