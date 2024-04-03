@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -26,3 +27,33 @@ int main(){
     int len = sizeof(a) / sizeof(a[0]);
     huruf.assign(a,a+len);
 }
+=======
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+    vector<char> huruf = {'j', 'i', 'h', 'a', 'n'};
+    huruf.front() = 'h';
+
+    huruf.back() = 'h';
+    cout << huruf.back();
+
+    for(vector<char>::iterator it = huruf.begin();it != huruf.end(); it++)
+        cout << *it << " ";
+
+    cout << huruf.at(3);
+
+    huruf.push_back('o');
+
+    huruf.pop_back();
+
+    cout << huruf.size();
+
+    cout << huruf.empty();
+
+    char a[] = {'h', 'a', 'i'};
+    int len = sizeof(a) / sizeof(a[0]);
+    huruf.assign(a,a+len);
+}
+>>>>>>> 3971ffa8d388b8ff605feb80b3abb44007349c4a
