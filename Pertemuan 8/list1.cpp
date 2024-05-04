@@ -35,5 +35,4 @@ int main(){
     it++;
     int arr[] = {11,12,13};
     angka.insert(it,begin(arr),end(arr));
-
 }
